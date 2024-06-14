@@ -1,0 +1,173 @@
+:root {
+    --bg-one: rgb(5, 25, 52);
+    --color-one: #eee;
+    --font-one: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif; 
+}
+body {
+  width: 100%;
+  background-color: white;
+}
+
+  /* HEADER NAVIGATION CONTAINER START... */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(2, 52, 86);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: medium;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+    background-color: #525151;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-links {
+    display: flex;
+  }
+  .navbar-links li {
+    list-style: none;
+    margin-left: 2em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: .2em;
+  }
+  .navbar-links li a:hover {
+    background-color: rgb(2, 52, 86);
+    border-radius: 5px;
+  }
+  
+  .input {
+    border-radius: 16px;
+    background-color: #343333;
+  
+    border: none;
+  
+    padding: 0.3em 0.3em 0.3em 0.6em;
+  
+    color: #fff;
+  }
+  .input:focus {
+    outline: none;
+  }
+
+  /* HEADER NAVIGATION CONTAINER END... */
+
+.head {
+    background-color: var(--bg-one);
+/* text-align: center; */
+
+/* margin-top: 1rem; */
+
+text-align: center;
+font-size: 1.5rem;
+color: var(--color-one);
+
+display: flex;
+justify-content: center;
+
+padding-block: 1rem;
+}
+
+.image {
+    width: 50%;
+
+    /* margin-left: 4rem; */
+}
+.image img {
+border-radius: 10px;
+height: 300px;
+width: 300px;
+/* max-width: 100%; */
+}
+
+.personal {
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    
+    margin-top: 2em;
+
+    padding-inline: 1em;
+}
+
+.personal-text{
+    width: 100%;
+}
+
+
+.personal .personal-text p {
+    /* width: 60%; */
+    font-size: 1.3rem;
+    line-height: 1.8;
+}
+
+.content {
+    padding: 2rem;
+
+    text-align: center;
+}
+.content p {
+   
+    line-height: 2;
+
+    width: 80%;
+
+    margin: 0 auto;
+}
+
+.content span {
+    background-color: var(--bg-one);
+    color: var(--color-one);
+
+    padding: .5rem;
+
+    margin-bottom: 1rem;
+
+    border-radius: 3px;
+
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+
+   
+
+    display: inline-block;
+}
+
+.work {
+    background-color: var(--bg-one);
+    color: var(--color-one);
+    text-align: center;
+
+    font-size: 2rem;
+
+    padding-block: 1rem;
+
+}
+
+footer {
+    
+    margin-block: 1rem;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+

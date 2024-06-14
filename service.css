@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* .image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+} */
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./service.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 100vh;
+}
+
+/* HEADER NAVIGATION CONTAINER START... */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(2, 52, 86);
+  font-family:'Times New Roman', Times, serif;
+  font-size: medium;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  background-color: #525151;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.navbar-links {
+  display: flex;
+}
+.navbar-links li {
+  list-style: none;
+  margin-left: 2em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  padding: .2em;
+}
+.navbar-links li a:hover {
+  background-color: rgb(2, 52, 86);
+  border-radius: 5px;
+}
+
+.input {
+  border-radius: 16px;
+  background-color: #343333;
+
+  border: none;
+
+  padding: 0.3em 0.3em 0.3em 0.6em;
+
+  color: #fff;
+}
+.input:focus {
+  outline: none;
+}
+
+/* HEADER NAVIGATION CONTAINER END... */
+
+header .head h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: #eee;
+}
+.services {
+  color: #eee;
+
+  /* color: red; */
+
+  margin: 3rem;
+
+  display: flex;
+}
+
+.services .left .service-1 h3,
+.services .left .service-2 h3 {
+  text-align: right;
+
+  padding-right: 3rem;
+}
+.services .left .service-1 p,
+.services .left .service-2 p,
+.services .right .service-3 p,
+.services .right .service-4 p {
+  line-height: 2;
+}
+.services .left .service-2 {
+  margin-top: 4rem;
+}
+.services .left .service-1 p,
+.services .left .service-2 p {
+  width: 93%;
+}
+
+.services .right .service-4 {
+  margin-top: 4rem;
+}
+.services .right .service-3 p,
+.services .right .service-4 p {
+  width: 93%;
+}
+.copyright {
+  color: #eee;
+}
+.work {
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  color: #eee;
+  font-size: 2rem;
+}
+.copyright {
+  text-align: center;
+  margin-top: 2rem;
+}

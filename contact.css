@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+/* .content {
+  position: absolute;
+  top: 20vh;
+  left: 10%;
+  width: 32%;
+  padding: 5px;
+} */
+
+/* HEADER NAVIGATION CONTAINER START... */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(2, 52, 86);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: medium;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+    background-color: #525151;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-links {
+    display: flex;
+  }
+  .navbar-links li {
+    list-style: none;
+    margin-left: 2em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: .2em;
+  }
+  .navbar-links li a:hover {
+    background-color: rgb(2, 52, 86);
+    border-radius: 5px;
+  }
+  
+  .input {
+    border-radius: 16px;
+    background-color: #343333;
+  
+    border: none;
+  
+    padding: 0.3em 0.3em 0.3em 0.6em;
+  
+    color: #fff;
+  }
+  .input:focus {
+    outline: none;
+  }
+  
+  /* HEADER NAVIGATION CONTAINER END... */
+
+.main-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+    padding-inline: 3rem;
+}
+
+
+.content {
+    /* padding: 3rem; */
+    /* padding-left: 3rem; */
+
+    width: 40%;
+}
+
+.content .wrapper {
+margin-top: 2rem;
+
+list-style: none;
+
+}
+.content .wrapper li {
+    display: flex;
+    align-items: center;
+}
+.content .wrapper li p {
+    margin-left: 1rem;
+}
+.content .wrapper li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+.icons {
+    /* padding: 3rem; */
+    margin-top: 10rem;
+}
+.icons .img {
+    margin-left: 2rem;
+    
+}
+
+.form label {
+    /* color: red; */
+
+    display: block;
+
+    margin-bottom: 1rem;
+}
+
+.form label input{
+    /* margin-left: 2rem; */
+
+    display: block;
+
+    /* margin-top: .5rem; */
+
+    padding-block: .3rem;
+    padding-inline: 1rem;
+
+    border-radius: 3px;
+}
+
+.form button {
+    background-color:#000;
+    color: #fff;
+
+    display: block;
+
+    padding: .5rem 3rem;
+
+    border: none;
+    cursor: pointer;
+
+    border-radius: 5px;
+
+    font-size: 1.2rem;
+
+    margin-top: 1rem;
+}
+footer {
+    text-align: center;
+
+    font-weight: bold;
+    margin-top: 2rem;
+}
